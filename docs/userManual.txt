@@ -1,0 +1,25 @@
+### Operation 1: List all items
+* By default, the program will list all items on the server. To return to this view, the user can at any time hit the "All" filter button at the top.
+
+### Operation 2: Add a new item
+* To add an item, simply hit the "Add Item" button at the bottom of the main window. A dialog will open.
+* Upon selecting a "Type" from the list at the top, the text fields will reveal themselves for entry.
+* The dialog makes it crystal clear when the input is valid or not: the label next to the text field turns green or red. Green for valid, red for invalid.
+* If the user is unsure of what constitutes "valid" or "invalid", hovering the mouse over the text field will let them know.
+
+### Operation 3: Remove an item
+* In the list view, each item has a garbage can icon next to the item's information.
+* Clicking this icon will ask for confirmation of deletion (with help from a guest celebrity)
+* If the user selects "yes", the item will be removed from the list and the server list will automatically update.
+
+### Operation 4: List expired items
+* Pressing the "Expired" button at the top will immediately filter the list to display only items that are expired.
+
+### Operation 5: List unexpired items
+* Pressing the "Not Expired" button at the top will immediately filter the list to display only items that aren't expired.
+
+### Operation 6: List items expiring in 7 days
+* Pressing the "Expiring in 7 Days" button at the top will immediately filter the list to display only items that are expiring within the next week.
+
+### Operation 7: Exit
+* The exit button will cause the client to attempt to save the server's items list, and then the program will exit.
